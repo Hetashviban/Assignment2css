@@ -1,0 +1,174 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+/*Header*/
+header {
+  background-color: #343a40;
+  display: flex;
+  padding: 0.7em 5em;
+  justify-content: space-between;
+  color: #fff;
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.1rem;
+}
+
+h3 {
+  display: inline;
+}
+
+
+
+/*Section 1*/
+p {
+  font-size: 1.2rem;
+  line-height: 1.8em;
+  font-weight: 100;
+  margin: 0%;
+}
+
+h1 {
+  font-size: 2.7rem;
+  margin: 0em;
+  font-weight: 300;
+}
+
+.firstSection {
+  text-align: center;
+  margin: 5em 21.75em;
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.firstSection p:nth-last-of-type(1) {
+  margin-top: 1em;
+}
+
+a {
+  border: 1px solid transparent;
+  text-decoration: none;
+  padding: 0.375rem 0.75rem;
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  font-weight: 400;
+}
+
+.one {
+  background-color: #007bff;
+  transition: background-color 0.3s ease;
+}
+
+.two {
+  background-color: #6c757d;
+  transition: background-color 0.3s ease;
+}
+
+.one:hover {
+  background-color: #0051ac;
+}
+
+.two:hover {
+  background-color: #525b62;
+}
+
+
+/*Section 2*/
+.secondSection {
+  background-color: #f8f9fa;
+  padding: 2em 5em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.row {
+  background-color: #575f65;
+  width: 21em;
+  height: 25em;
+  border-radius: 5px;
+  margin-bottom: 3em;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+h2 {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 25%;
+  font-size: 1.5rem;
+}
+
+.card-body {
+  background-color: #fff;
+  height: 9.3em;
+  margin-top: 14em;
+}
+
+.card-body p {
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 0.7em 1.5em;
+}
+
+small {
+  font-size: 1rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 0em 1em;
+  color: #6c757d;
+}
+
+.justButtons {
+  display: flex;
+}
+
+.first,
+.second {
+  padding: 0.5em 1em;
+  color: #6c757d;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.first:hover,
+.second:hover {
+  color: #fff;
+  background-color: #6c757d;
+}
+
+/*footer*/
+footer {
+  padding: 3rem;
+  color: #6c757d;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.footerInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer span {
+  color: #007bff;
+}
+footer a {
+  color: #007bff;
+  font-size: 1.2rem;
+}
+a {
+  justify-self: end;
+}
